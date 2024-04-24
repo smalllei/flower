@@ -17,7 +17,7 @@ h1 {
 }
 
 .flower {
-    width: 150px; /* 两列布局，计算后留出间隙 */
+    width: calc(50% - 10px); /* 两列布局，计算后留出间隙 */
     max-width: 250px; /* 最大宽度为 250px */
     margin-bottom: 20px; /* 底部间距 */
     border: 1px solid #ccc;
@@ -91,4 +91,18 @@ h1 {
     cursor: pointer;
 }
 
+/* 在手机上双列展示，电脑上每个 flower 宽度为 250px */
+@media screen and (max-width: 767px) {
+    .flower {
+        width: calc(50% - 10px); /* 两列布局，计算后留出间隙 */
+        max-width: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .flower {
+        width: calc(25% - 30px); /* 三列布局 */
+        max-width: 250px; /* 电脑上每个 flower 宽度为 250px */
+    }
+}
 
