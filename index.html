@@ -9,77 +9,10 @@
 <body>
     <h1>仿生花展示</h1>
 
-    <div class="container">
-        <div class="flower" onclick="showModal('images/image1.jpg', '花朵名称 1', '这里可以添加关于花朵的描述...')">
-            <img src="images/image1.jpg" alt="Flower 1">
-            <h3>花朵名称 1</h3>
-            <p>点击图片查看大图</p>
-        </div>
-        <div class="flower" onclick="showModal('images/image1.jpg', '花朵名称 2', '这里可以添加关于花朵的描述...')">
-            <img src="images/image1.jpg" alt="Flower 2">
-            <h3>花朵名称 2</h3>
-            <p>点击图片查看大图</p>
-        </div>
-        <div class="flower" onclick="showModal('images/image1.jpg', '花朵名称 3', '这里可以添加关于花朵的描述...')">
-            <img src="images/image1.jpg" alt="Flower 3">
-            <h3>花朵名称 3</h3>
-            <p>点击图片查看大图</p>
-        </div>
-        <div class="flower" onclick="showModal('images/image1.jpg', '花朵名称 3', '这里可以添加关于花朵的描述...')">
-            <img src="images/image1.jpg" alt="Flower 3">
-            <h3>花朵名称 3</h3>
-            <p>点击图片查看大图</p>
-        </div>
-        <div class="flower" onclick="showModal('images/image1.jpg', '花朵名称 3', '这里可以添加关于花朵的描述...')">
-            <img src="images/image1.jpg" alt="Flower 3">
-            <h3>花朵名称 3</h3>
-            <p>点击图片查看大图</p>
-        </div>
-        <div class="flower" onclick="showModal('images/image1.jpg', '花朵名称 3', '这里可以添加关于花朵的描述...')">
-            <img src="images/image1.jpg" alt="Flower 3">
-            <h3>花朵名称 3</h3>
-            <p>点击图片查看大图</p>
-        </div>
-        <div class="flower" onclick="showModal('images/image1.jpg', '花朵名称 3', '这里可以添加关于花朵的描述...')">
-            <img src="images/image1.jpg" alt="Flower 3">
-            <h3>花朵名称 3</h3>
-            <p>点击图片查看大图</p>
-        </div>
-        <div class="flower" onclick="showModal('images/image1.jpg', '花朵名称 3', '这里可以添加关于花朵的描述...')">
-            <img src="images/image1.jpg" alt="Flower 3">
-            <h3>花朵名称 3</h3>
-            <p>点击图片查看大图</p>
-        </div>
-        <div class="flower" onclick="showModal('images/image1.jpg', '花朵名称 3', '这里可以添加关于花朵的描述...')">
-            <img src="images/image1.jpg" alt="Flower 3">
-            <h3>花朵名称 3</h3>
-            <p>点击图片查看大图</p>
-        </div>
-        <div class="flower" onclick="showModal('images/image1.jpg', '花朵名称 3', '这里可以添加关于花朵的描述...')">
-            <img src="images/image1.jpg" alt="Flower 3">
-            <h3>花朵名称 3</h3>
-            <p>点击图片查看大图</p>
-        </div>
-        <div class="flower" onclick="showModal('images/image1.jpg', '花朵名称 3', '这里可以添加关于花朵的描述...')">
-            <img src="images/image1.jpg" alt="Flower 3">
-            <h3>花朵名称 3</h3>
-            <p>点击图片查看大图</p>
-        </div>
-        <div class="flower" onclick="showModal('images/image1.jpg', '花朵名称 3', '这里可以添加关于花朵的描述...')">
-            <img src="images/image1.jpg" alt="Flower 3">
-            <h3>花朵名称 3</h3>
-            <p>点击图片查看大图</p>
-        </div>
-        <!-- 添加更多花朵项目 -->
+    <div class="container" id="flowerContainer">
+        <!-- Flowers will be dynamically added here -->
     </div>
 
-    <div class="modal" id="flowerModal">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img class="modal-content" id="modalImg" src="">
-        <div id="caption"></div>
-    </div>
-
-   
     <div class="company-info">
         <h2>公司信息</h2>
         <p>公司名称：XXX</p>
@@ -95,6 +28,8 @@
         <img class="modal-content" id="modalImg" src="">
         <div id="caption"></div>
     </div>
+
+
 
     <script src="scripts/script.js"></script>
 </body>
