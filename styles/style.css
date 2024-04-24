@@ -17,7 +17,7 @@ h1 {
 }
 
 .flower {
-    width: 250px; /* 两列布局，计算后留出间隙 */
+    width: 150px; /* 两列布局，计算后留出间隙 */
     max-width: 250px; /* 最大宽度为 250px */
     margin-bottom: 20px; /* 底部间距 */
     border: 1px solid #ccc;
