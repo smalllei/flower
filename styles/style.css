@@ -12,14 +12,15 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px; /* 为了让第一个 flower 距离顶部有一定的空间 */
+    gap: 20px; /* 项目间隙 */
+    margin-top: 20px; /* 为了让第一个 flower 距离顶部有一定的空间 */
 }
 
 .flower {
-    width: 200px;
-    margin: 10px;
+    width: calc(50% - 10px); /* 两列布局，计算后留出间隙 */
+    max-width: 200px; /* 最大宽度为 200px */
+    margin-bottom: 20px; /* 底部间距 */
     border: 1px solid #ccc;
-    padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.2s;
@@ -88,3 +89,5 @@ h1 {
     text-decoration: none;
     cursor: pointer;
 }
+
+
